@@ -1,0 +1,58 @@
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="horizontal">
+
+    <ImageView
+        android:id="@+id/coffee_img"
+        android:layout_weight="1"
+        android:background="@color/text_color"
+        android:layout_width="0dp"
+        android:layout_height="match_parent"
+        android:src="@drawable/arpeggio" />
+
+    <LinearLayout
+        android:layout_width="0dp"
+        android:layout_height="match_parent"
+        android:layout_weight="2"
+        android:orientation="vertical"
+        android:padding="16dp">
+
+        <TextView
+            android:id="@+id/coffee_name"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Arpeggio"
+            android:textColor="@color/text_color"
+            android:textSize="60sp" />
+
+
+        <TextView
+            android:id="@+id/coffee_intensity"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_margin="16dp"
+            android:text="Intensity 9"
+            android:textColor="@color/text_color"
+            android:textSize="20sp" />
+
+        <TextView
+            android:id="@+id/coffee_description"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_margin="16dp"
+            android:text="A dark roast of pure South and Central American Arabicas, Arpeggio has a strong character and intense body, enhanced by cocoa notes."
+            android:textColor="@color/text_color"
+            android:textSize="20sp" />
+
+        <Button
+            android:id="@+id/distribute_button"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:background="@drawable/button_shape"
+            android:textColor="@color/text_color"
+            android:text="@string/distribute" />
+    </LinearLayout>
+
+</LinearLayout>
+

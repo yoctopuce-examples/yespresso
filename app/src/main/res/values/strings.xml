@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <string name="app_name">Yespresso</string>
+    <string name="dummy_button">Dummy Button</string>
+    <string name="dummy_content">DUMMY\nCONTENT</string>
+    <string name="distribute">Distribute</string>
+    <string name="title_activity_coffee_selection">CoffeeSelectionActivity</string>
+    <string name="hello_world">Hello world!</string>
+    <string name="action_settings">Settings</string>
+    <string name="intensity">Intensity %d</string>
+    <string name="first">first</string>
+    <string name="last">last</string>
+
+</resources>

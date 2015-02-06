@@ -1,0 +1,8 @@
+<resources>
+
+    <color name="black_overlay">#66000000</color>
+    <color name="text_background">#ff000000</color>
+    <color name="text_color">#ffffff</color>
+    <color name="distribute_button_pressed">#7D561E</color>
+    <color name="distribute_button_std">#a5801b</color>
+</resources>
